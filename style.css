@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: url(calc.webp);
+}
+#mainbox {
+    border: 2cm;
+    border-width: 10px;
+    border-style: solid;
+    height: 518px;
+    width: 350px;
+    margin: auto;
+}
+
+#input1 {
+    border-width: 2px;
+    margin: auto;
+    width: 344px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: darkolivegreen;
+}
+
+#numpad {
+    margin-top: 10px;
+    border: 2cm;
+    width: 250px;
+    height: 330px;
+    float: left;
+    padding-left: 10px;
+}
+
+button {
+    background-color: darkolivegreen;
+    font-size: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 60px;
+    color: black;
+}
+
+.button1:hover, .opr:hover, #clear:hover, #bckspace:hover, .btnEqual:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+#clear, #bckspace {
+    float: left;
+    background-color: darkolivegreen;
+    width: 160px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: larger;
+    height: 50px;
+}
+
+#bckspace {
+    float: right;
+    width: 160px;
+}
+#operations {
+    margin-top: 72px;    
+    height: 330px;
+}
